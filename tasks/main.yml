@@ -7,11 +7,11 @@
     mode: 755
 
 - name: install custom device trees overlays
-  copy:
-    src: "{{item}}"
+  get_url:
+    url: "{{item}}"
     dest: /lib/firmware/
-  with_items: bbb_device_tree_overlay_files
-  when: bbb_device_tree_overlay_files | length > 0
+  with_items: bbb_device_tree_overlay_urls
+  when: bbb_device_tree_overlay_urls | length > 0
 
 - name: configure cape manager
   lineinfile:

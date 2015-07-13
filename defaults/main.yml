@@ -1,7 +1,7 @@
 ---
 # List of local paths to custom device tree overlays files to be
 # installed on target BBBs.
-bbb_device_tree_overlay_files: []
+bbb_device_tree_overlay_urls: []
 
 # Path to the uEnv.txt file on the target BBBs.
 bbb_uenv_txt_path: /boot/uEnv.txt
