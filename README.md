@@ -1,6 +1,6 @@
 # ansible-beagleboneblack
 
-[![Ansible Galaxy](http://img.shields.io/badge/galaxy-armsible.beagleboneblack-660198.svg)](https://galaxy.ansible.com/list#/roles/4361)
+[![Ansible Galaxy](http://img.shields.io/badge/galaxy-armsible.beagleboneblack-660198.svg)](https://galaxy.ansible.com/list#/roles/4362)
 
 An Ansible role for provisioning BeagleBone Black devices.
 
