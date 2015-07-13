@@ -4,12 +4,11 @@
 
 An Ansible role for provisioning BeagleBone Black devices.
 
-This role installs a fix for a known issue that prevents `apt-get
-install` from working on revision C of the BBB [1] and provides hooks
-for installing custom device tree overlays and setting uEnv.txt
-options.
-
-[1] https://groups.google.com/forum/#!topic/beagleboard/LPjCn4LEY2IAn
+This role installs a fix for
+[a known issue](https://groups.google.com/forum/#!topic/beagleboard/LPjCn4LEY2IAn)
+that prevents `apt-get install` from working on revision C of the BBB
+and provides hooks for installing custom device tree overlays and
+setting uEnv.txt options.
 
 ## Installation
 
