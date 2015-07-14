@@ -15,7 +15,7 @@
 
 - name: configure cape manager
   lineinfile:
-    dest: "{{uenv_txt_path}}"
+    dest: "{{bbb_uenv_txt_path}}"
     insertafter: "EOF"
     line: "{{item}}"
     state: present
