@@ -1,6 +1,6 @@
 # ansible-beagleboneblack
 
-[![Ansible Galaxy](http://img.shields.io/badge/galaxy-armsible.beagleboneblack-660198.svg)](https://galaxy.ansible.com/list#/roles/4362)
+[![Ansible Galaxy](http://img.shields.io/badge/galaxy-whiskerlabs.beagleboneblack-660198.svg)](https://galaxy.ansible.com/list#/roles/6648)
 
 An Ansible role for provisioning BeagleBone Black devices.
 
@@ -14,7 +14,7 @@ setting uEnv.txt options.
 
 To install from Ansible Galaxy:
 
-    $ ansible-galaxy install armsible.beagleboneblack
+    $ ansible-galaxy install whiskerlabs.beagleboneblack
 
 Or alternatively, add the path to a local copy of this repository to
 `roles_path` within your project's `ansible.cfg` file:
